@@ -12,5 +12,6 @@ sb -s
 mv /tmp/11_xtls-reality_inbounds.json /etc/sing-box/conf/11_xtls-reality_inbounds.json
 rm -f /tmp/step*.json
 sb -s
+sb -n
 echo '已成功将流控更改为 xtls-rprx-vision ！'
 echo 0
